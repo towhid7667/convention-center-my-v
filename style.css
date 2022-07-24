@@ -95,6 +95,25 @@ section.pricing {}
 
 }
 
+.accord-items {
+    margin-left: 150px;
+}
+
+.accordion-item {
+    margin-top: 10px;
+
+}
+
+
+.my-footer {
+    background-color: black;
+    color: aliceblue;
+}
+
+.footer-item-two {
+    margin-left: px;
+    padding-left: 400px;
+}
 
 
 
@@ -151,7 +170,86 @@ section.pricing {}
     }
 
     .client-01 {
+        flex-direction: column !important;
+        align-items: center;
         width: 80%;
+
+    }
+
+    .last-card {
+        margin-top: 50px;
+    }
+
+    .accord-items {
+        margin-left: 0px;
+        flex-direction: column !important;
+        align-items: center;
+
+
+    }
+
+    .footer-item-two {
+
+
+        padding-left: 0px;
+    }
+
+    .footer-things {
+        margin-right: 45px;
+    }
+
+    .my-footer {
+        text-align: center;
+
+    }
+
+
+
+
+
+
+
+}
+
+@media only screen and (min-width: 760px) and (max-width: 992px) {
+    .card-title-01 {
+
+        left: 500px;
+        bottom: 520px;
+
+
+
+    }
+
+    .client-01 {
+        width: 90%;
+
+
+    }
+
+    .last-card {
+        margin-top: 50px;
+    }
+
+    .accord-items {
+        margin-left: 20px;
+        flex-direction: column !important;
+        align-items: center;
+
+
+    }
+
+    .footer-item-two {
+
+
+        padding-left: 0px;
+    }
+
+
+
+    .my-footer {
+        text-align: center;
+
 
     }
 
