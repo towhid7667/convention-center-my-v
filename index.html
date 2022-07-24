@@ -75,7 +75,8 @@
                         <img src="images/banner.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption">
                             <h1 class="title-text">The perfect venue <br> for your next event</h1>
-                            <p>Amet minim mollit non deserunt ullamco est<br> sit aliqua dolor do amet sint. Velit
+                            <p class="secondary-text">Amet minim mollit non deserunt ullamco est<br> sit aliqua dolor do
+                                amet sint. Velit
                                 officia
                                 consequat duis enim velit </p>
                             <button class="book-now btn btn-light text-primary px-4 mb-4 " type="submit">Book
@@ -115,6 +116,17 @@
                             class="fa-solid fa-arrow-right"></i></button>
 
                 </div>
+                <div class="toast d-inline" role="alert" aria-live="assertive" aria-atomic="true" id="mytoast">
+                    <div class="toast-header">
+                        <img src="icons/Vector.svg" class="rounded me-2" alt="...">
+                        <strong class="me-auto">20% off on next booking</strong>
+
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+
+                </div>
+
+
 
             </div>
 
@@ -122,9 +134,14 @@
 
 
 
+
+
     </main>
     <script src="https://kit.fontawesome.com/19616f66a1.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $('#mytoast').toast("show")
+    </script>
 </body>
 
 </html>

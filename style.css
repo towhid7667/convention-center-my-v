@@ -1,3 +1,7 @@
+.navbar-nav a {
+    font-weight: bold;
+}
+
 .main-logo-text {
     font-weight: bold;
 }
@@ -11,13 +15,22 @@
     font-weight: bold;
 }
 
+.toast {
+    position: absolute;
+    right: 100px;
+    width: 300px;
+    margin-top: 30px;
+    border-left: 8px solid #1B98F5;
+
+}
+
 
 
 
 /* meadia quiries for small device to show up the title and images */
 @media only screen and (max-width: 767px) {
     .image-descrip {
-        flex-direction: column !important;
+        flex-direction: column-reverse !important;
         align-items: center;
         width: 80%;
     }
@@ -52,6 +65,9 @@
         margin-bottom: 5rem !important;
     }
 
+    .toast {
+        bottom: 500px;
+    }
 
 
 }
