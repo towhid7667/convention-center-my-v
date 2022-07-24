@@ -10,3 +10,48 @@
     font-size: 50px;
     font-weight: bold;
 }
+
+
+
+
+/* meadia quiries for small device to show up the title and images */
+@media only screen and (max-width: 767px) {
+    .image-descrip {
+        flex-direction: column !important;
+        align-items: center;
+        width: 80%;
+    }
+
+    .description-items {
+        width: 90%;
+        text-align: center;
+    }
+
+    .carousel-item img {
+        height: 250px;
+    }
+
+    .carousel-caption {
+        top: 40px;
+
+
+    }
+
+    .title-text {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .secondary-text {
+        font-size: 10px;
+    }
+
+    .book-now {
+        font-size: 10px;
+        padding: 5px !important;
+        margin-bottom: 5rem !important;
+    }
+
+
+
+}
